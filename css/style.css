@@ -1,0 +1,44 @@
+* {
+    transition: all 0.3s;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 300%;
+    font-family: calibri;
+    color: white;
+    background-image: url(../img/fondoCronometro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    color: rgb(3, 0, 2);
+   
+}
+.colorTitulo{
+    background-image: linear-gradient(rgb(227, 72, 168), #f6d365, #fda085);
+}
+.marco {
+    border-radius: 30px;
+    background: black;
+    padding: 30px;
+    border: 5px solid white;
+}
+
+.botones-contenedor {
+    display: flex;
+    justify-content: space-around;
+    font-size: 45px;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 60%;
+    padding: 20px;
+}
